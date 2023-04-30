@@ -1,5 +1,19 @@
 ---
-title: "maxwellelliott"
+title: "Maxwell Elliott"
+image: headshot.jpeg
+about: 
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - text: Twitter
+      href: https://twitter.com/max12elliott
+    - text: GitHub
+      href: https://github.com/maxwellelliott
+    - text: Email
+      href: mailto:maxwell_elliott@fas.harvard.edu
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/maxwell-elliott-72902590/
 ---
 
 This is a Quarto website.

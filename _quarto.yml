@@ -3,16 +3,49 @@ project:
   output-dir: docs
 
 website:
-  title: "maxwellelliott"
+  title: "Maxwell Elliott"
+
   navbar:
+    pinned: true
+
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "About"
+        href: "index.qmd"
+      - text: "CV"
+        href: "cv/index.qmd"
+      - text: "Research"
+        file: research/index.qmd
+      - text: "Blog"
+        file: blog/index.qmd
+  #    - text: "Teaching"
+  #      href: "teaching/index.qmd"
+  #    - text: "Talks"
+  #      href: "talks/index.qmd"
+  #    - text: "Now"
+  #      href: now/index.qmd
+  #    - text: "Uses"
+  #      file: uses/index.qmd
+    
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:maxwell_elliott@fas.harvard.edu"
+      - icon: twitter
+        aria-label: twitter
+        href: https://twitter.com/max12elliott
+        rel: me
+      - icon: github
+        aria-label: github
+        href: https://github.com/maxwellelliott
+        rel: me
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/maxwellelliott
+        rel: me
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
 
